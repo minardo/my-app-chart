@@ -1,0 +1,2 @@
+Kamu telah berhasil menginstall {{ .Release.Name }}, Untuk mengakses service dapat memanggil URI dibawah ini:
+{{ .Release.Name }}.{{ .Release.Namespace }}:{{ .Values.service.port }}
